@@ -1,0 +1,26 @@
+h1 {
+    color: rgb(209, 144, 144);
+}
+
+.header * {
+    border: solid;
+}
+.header{
+    background-color: rgb(97, 97, 144);
+    display:flex;
+    justify-content: space-between;
+    font-family: 'Times New Roman', Times, serif;
+}
+.grid{
+     display:flex;
+    justify-content:  space-evenly;
+    flex-wrap: wrap;
+}
+.footer{
+        display:flex;
+        justify-content: flex-end;
+    }
+body{
+    background-color: #637dc3f1;
+    margin: 1em;
+}
